@@ -1,0 +1,138 @@
+html, body {
+    background-color: #fff;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+    background-image: url("/images/bg.png");
+    background-repeat: repeat-x;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+.content .card{
+   width: 25rem;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+#cardtitle{
+    color: #888;
+    opacity: 1;
+    font-size: 22px;
+    font-weight: bold;
+}
+#regbtn{
+    color: #888;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#regbtn:hover{
+    color: #fff;
+}
+.alert-danger {
+    padding: 0px;
+    padding-top: 6px;
+    color: #721c24;
+    font-weight: bold;
+}
+
+.alert-success {
+    font-weight: bold;
+}
+.alert-danger ul li{
+    text-align: left;
+}
+
+
+#loginbtn{
+    color: #888;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#loginbtn:hover{
+    color: #fff;
+}
+#cardtitle{
+    color: #888;
+    opacity: 1;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#createnewbtn a{
+
+    color: #888;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#createnewbtn:hover a{
+    color: #fff;
+}
+
+#enterphbtn{
+    color: #888;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#enterphbtn:hover{
+    color: #fff;
+}
+
+#entercodebtn{
+    color: #888;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#entercodebtn:hover{
+    color: #fff;
+}
